@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>PalmFree</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+    
+    <!--<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar" data-aos="fade-down" data-aos-delay="500">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Papers</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="services.html" class="nav-link">What We Do</a></li>
+            <li class="nav-item"><a href="blog.html" class="nav-link">The Journal</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">Who We Are</a></li>
+            <li class="nav-item"><a href="pricing.html" class="nav-link">Plans &amp; Pricing</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <--END nav -->
+
+
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>PalmFree</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="shortcut icon" type="image/png" href="image/logo.png">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    </head>
+    
+    <body>
+      <!-- Nav-bar starts here -->
+      <div class="navigation">
+          <link rel="stylesheet" href="css/navstyle.css">
+        <!-- <nav class="navbar navbar-expand-lg navbar-light navbar-transparent"> -->
+          <nav class="navbar navbar-expand-lg navbar-light ftco_navbar  navbar-transparent bg-dark ftco-navbar-light" id="ftco-navbar" data-aos="fade-down" data-aos-delay="200">  
+          <a class="navbar-brand" href="#"><img style="width:6rem;height:51px;" src="images/logo.png" alt=""></a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2 form-transparent" style="width:450px;" type="search" placeholder="Search..." aria-label="Search">
+              <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+            </form>
+    
+            <ul class="navbar-nav" style="transform: translateX(95%);">
+              <li class="nav-item">
+                <a class="nav-link" href="newproduct.php">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="rewards.php" onclick="" id="rewards"><i class="fas fa-dollar-sign"></i> Rewards</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal" id="dispuser"><i class="fas fa-user"></i> Login</a>
+              </li>
+            </ul>
+    
+          </div>
+        </nav>
+      </div>
+      <!-- Nav-bar ends here -->
+    
+      <!-- For sample testing -->
+      <!-- <header id="header">
+        <div>
+          <img src="image/background.jpg" alt="">
+          <img style="width:900px;height:800px;" src="image/tom-coomer-218401-unsplash.jpg" alt="">
+    
+          <img src="image/logo.png" alt="">
+        </div>
+      </header>
+     -->
+	 <!-- -----------------------------------Login /user Modal starts----- ----------------------------------->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalLabel"><center><img src="logo.png" height=50 width=100>&emsp;&emsp;&emsp;&emsp;&emsp;LOGIN</center></h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="POST" action="userlogin.php">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Contact No.</label>
+    <input type="number" class="form-control" ng-model="userid" id="userid" name="userid" aria-describedby="emailHelp" placeholder="Enter K-Wallet User ID" required>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" ng-model="pswd" id="userpassword" name="userpassword" placeholder="Password" required>
+  </div>
+  <button type="submit" class="btn btn-primary" id="formbuton" onclick="setsession()">Log In</button><br>
+  <a href="">Forgot Password? </a>
+</form>
+      </div>
+      <div class="modal-footer">
+	  <a href="signup.php" onclick="loginf()">Register to K-Wallet</a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------------------------------Modal ends----------------------------------->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+      <script src="js/script.js"></script>
+    </body>
+    
+    </html>
+
+    <section class="ftco-cover" style="background-image: url(images/orangutan.jpg);" id="section-home" data-aos="fade"  data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row align-items-center ftco-vh-100">
+          <div class="col-md-7">
+            <h1 class="ftco-heading mb-3" data-aos="fade-up" data-aos-delay="500">Around 90% Population of orangutans on the Indonesian islands have died because of deforestation for palm cultivation.</h1>
+            
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+    
+    <section class="ftco-section" id="section-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12  mb-5" data-aos="fade-up">
+            <h1 class="ftco-heading heading-thin mb-5">'The greatness of a nation is judged by the way it treats it's animals '- Mahatma Gandhi </h1>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- END section -->
+
+    <section class="ftco-section-2">
+      <div class="container-fluid">
+        <div class="section-2-blocks-wrapper row no-gutters">
+          <div class="img col-sm-12 col-md-5" style="background-image: url('images/palmfield.jpg');" data-aos="fade-right">
+            <a href="https://vimeo.com/45830194" class="button popup-vimeo" data-aos="fade-right" data-aos-delay="700"><span class="ion-ios-play"></span></a>
+          </div>
+          <div class="text col-md-6 col-lg-7 d-flex">
+            <div class="text-inner align-self-center" data-aos="fade-up">
+              
+              <h2>About the Culprit</h2>
+             <h3> <p>It is an edible vegetable oil derived from the fruit of the oil palm tree which flourishes in tropical conditions.
+             <p>It is versatile, low price and has low trans fat.</p>
+             <p>Globally we consume about 50 million tonnes each year</p></h3>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-2-blocks-wrapper-2">
+      <div class="container-fluid">
+        <div class="section-2-blocks-wrapper row no-gutters d-flex" style="background: #fafafa;">
+          
+          <div class="text col-md-5 col-lg-5 col-xl-4 ml-auto d-flex" data-aos="fade-up">
+            <div class="text-inner align-self-center mr-auto">
+              <h3 class="text-primary h5">THE BEAUTY OF NATURE IS-IT'S GIVING </h3>
+              <p class="mb-4">But as mush as it has given to us,we humans are never really satisfied,and have rather taken everything away from her.</p>
+              <h1 class="text-primary h5">PALMFREE</h1>
+              <p class="mb-4">Aptly named project to help lessen the use of illegal "palm-oil".</p>
+            </div>
+          </div>
+          <div class="img col-md-5 no-gutters ml-auto">
+            <div class="image" style="background-image: url('images/palmoil.jpg'); " data-aos="fade-left"></div>
+            <div class="quote" data-aos="fade-left">
+              <p class="mb-5">"Let nature breathe cause that's all we need"</p>
+              <p class="author">&mdash; Mellissa Clark</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    
+  
+
+  <div class="ftco-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 text-center" data-aos="fade-up">
+          <h2>Our "3-chain" rule</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4"  data-aos="fade-up">
+         <div class="flip-container">
+            <div class="flipper">
+              <div class="front" style="background-image: url(../images/image_5.jpg);">
+                <div class="box">
+                  <h1 align:"center">Buy Palm Free Products</h1>
+                  <p></p>
+                </div>
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <blockquote>
+                  <p>&ldquo;Buy from our selected range of palm-free and sustainable palm-free oil products. &rdquo;</p>
+                </blockquote>
+                <div class="author d-flex">
+                  <div class="image mr-3 align-self-center">
+                    <!-- <img src="images/person_1.jpg" alt=""> -->
+                  </div>
+                  <div class="name align-self-center"><h2>Buy Through Us. </h2><span class="position"></span></div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- .flip-container -->
+        </div>
+        <div class="col-md-6 col-lg-4"  data-aos="fade-up" data-aos-delay="100">
+          
+          <div class="flip-container hover">
+            <div class="flipper">
+              <div class="front" style="background-image: url(../images/image_6.jpg);">
+                <div class="box">
+                  <h2>CONTRIBUTE BY DONATING</h2>
+                  <p></p>
+                </div>
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <blockquote>
+                  <p>&ldquo;Earn swags rewards for your genuine efforts.&rdquo;</p>
+                </blockquote>
+                <div class="author d-flex">
+                  <div class="image mr-3 align-self-center">
+                    <!-- <img src="images/person_2.jpg" alt=""> -->
+                  </div>
+                  <div class="name align-left"><h2>Get Rewarded</h2> <span class="position"></span></div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- .flip-container -->
+
+        </div>
+        <div class="col-md-6 col-lg-4"  data-aos="fade-up" data-aos-delay="200">
+          
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front" style="background-image: url(../images/image_7.jpg);">
+                <div class="box">
+                  <h1 align: "center" >Believe </h1>
+                  
+                </div>
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <blockquote>
+                  <p>&ldquo;Believe in the cause to save one of the most beautiful species of the nature.&rdquo;</p>
+                </blockquote>
+                <div class="author d-flex">
+                  <div class="image mr-3 alig9n-self-center">
+                    <!-- <img src="images/person_3.jpg" alt=""> -->
+                  </div>
+                  <div class="name align-self-center"> <h1> Believe </h1><span class="position"></span></div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- .flip-container -->
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ftco-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 text-center" data-aos="fade-up">
+          <h2>Buy smartly.</h2>
+        </div>
+
+      </div>
+     <img id="q" src="images/alexa-banner.png"></img-s>
+      <!--<div class="row">
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <div class="media block-6">
+            <div class="icon"><span class="flaticon-bank bg-after"></span></div>
+            <div class="media-body">
+              <h3 class="heading">Creative Performance</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            </div>
+          </div>      
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="media block-6">
+            <div class="icon"><span class="flaticon-career bg-after"></span></div>
+            <div class="media-body">
+              <h3 class="heading">Reach Performance</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            </div>
+          </div>      
+        </div>
+  C:\xampp\htdocs\palmfree-webiste\newtemplate\index.html (3 hits)
+	Line 81:                 <a class="nav-link" href="#">Products</a>
+	Line 233:                   <h1 align:"center">Buy Palm Free Products</h1>
+	Line 240:                   <p>&ldquo;Buy from our selected range of palm-free and sustainable palm-free oil products. &rdquo;</p>
+
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="media block-6">
+            <div class="icon"><span class="flaticon-lightbulb bg-after"></span></div>
+            <div class="media-body">
+              <h3 class="heading">Custom Development</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            </div>
+          </div>    
+        </div>
+
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="media block-6">
+            <div class="icon"><span class="flaticon-pie-chart bg-after"></span></div>
+            <div class="media-body">
+              <h3 class="heading">Creative Performance</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            </div>
+          </div>      
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="media block-6">
+            <div class="icon"><span class="flaticon-handshake bg-after"></span></div>
+            <div class="media-body">
+              <h3 class="heading">Reach Performance</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            </div>
+          </div>      
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+          <div class="media block-6">
+            <div class="icon"><span class="flaticon-presentation bg-after"></span></div>
+            <div class="media-body">
+              <h3 class="heading">Custom Development</h3>
+              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+            </div>
+          </div>    
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="ftco-section bg-light">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-5">
+        <div class="col-md-7 text-center"  data-aos="fade-up">
+          <h2>Our Blog</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4" data-aos="fade-up">
+          <a href="blog-single.html" class="block-5" style="background-image: url('images/image_10.jpg');">
+            <div class="text">
+              <div class="subheading">Travel</div>
+              <h3 class="heading">Far far away, behind the word mountains</h3>
+              <div class="post-meta">
+                <span>Wellie Clark</span>
+                <span>March 20, 2018</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <a href="blog-single.html" class="block-5" style="background-image: url('images/image_8.jpg');">
+            <div class="text">
+              <div class="subheading">Travel</div>
+              <h3 class="heading">Far far away, behind the word mountains</h3>
+              <div class="post-meta">
+                <span>Wellie Clark</span>
+                <span>March 20, 2018</span>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <a href="blog-single.html" class="block-5" style="background-image: url('images/image_9.jpg');">
+            <div class="text">
+              <div class="subheading">Travel</div>
+              <h3 class="heading">Far far away, behind the word mountains</h3>
+              <div class="post-meta">
+                <span>Wellie Clark</span>
+                <span>March 20, 2018</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+  <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md">
+              <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">The Restaurant</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="py-2 d-block">About Us</a></li>
+                  <li><a href="#" class="py-2 d-block">Chefs</a></li>
+                  <li><a href="#" class="py-2 d-block">Events</a></li>
+                  <li><a href="#" class="py-2 d-block">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md">
+               <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Communities</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="py-2 d-block">Support</a></li>
+                  <li><a href="#" class="py-2 d-block">Sharing is Caring</a></li>
+                  <li><a href="#" class="py-2 d-block">Better Web</a></li>
+                  <li><a href="#" class="py-2 d-block">Good Template</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md">
+               <div class="ftco-footer-widget mb-4">
+                <h2 class="ftco-heading-2">Useful links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="py-2 d-block">Bootstrap 4</a></li>
+                  <li><a href="#" class="py-2 d-block">jQuery</a></li>
+                  <li><a href="#" class="py-2 d-block">HTML5</a></li>
+                  <li><a href="#" class="py-2 d-block">Sass</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ftco-footer-widget mb-4">
+            <ul class="ftco-footer-social list-unstyled float-md-right float-lft">
+              <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+
+          <p> Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. 
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" class="text-primary">Colorlib</a>
+ Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        <!-- </div>
+      </div>
+    </div>
+  </footer> -->
+<!-- 
+loader -
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
+<script>
+function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') 
+	{
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+var user=getCookie("username");
+if(user!="")
+   {document.getElementById("dispuser").innerHTML=user; alert("Welcome "+user);
+   $("#rewards").attr("href", "rewards.php");
+   }
+   else
+   {
+   $("#rewards").attr("href", "");
+   $("#rewards").attr("onclick", "alert('Login First')");
+   }
+</script>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
