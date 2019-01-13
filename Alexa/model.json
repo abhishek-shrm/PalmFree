@@ -1,0 +1,132 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "palm oil free",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PalmFreeIntent",
+                    "slots": [
+                        {
+                            "name": "category",
+                            "type": "CATEGORY"
+                        }
+                    ],
+                    "samples": [
+                        "palm oil free {category}",
+                        "palm free {category}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "CATEGORY",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "chocolate powder",
+                                "synonyms": [
+                                    "chocolate powders"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "beauty products",
+                                "synonyms": [
+                                    "beauty product"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "soap",
+                                "synonyms": [
+                                    "soaps"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cereals"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "snacks",
+                                "synonyms": [
+                                    "snack"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chips"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chocolate cake",
+                                "synonyms": [
+                                    "chocolate cakes"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hazelnut spread",
+                                "synonyms": [
+                                    "hazelnut spreads"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "peanut butter",
+                                "synonyms": [
+                                    "peanut butters"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mayonise"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chocolate",
+                                "synonyms": [
+                                    "chocolates"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "shampoo",
+                                "synonyms": [
+                                    "shampoos"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
