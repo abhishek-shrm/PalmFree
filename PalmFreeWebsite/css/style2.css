@@ -1,0 +1,75 @@
+.mission .missionHead{
+  z-index: 2;
+  position: absolute;
+  top:140px;
+  left:50px;
+  color:whitesmoke;
+}
+.mission>h1{
+  z-index: 2;
+  position: absolute;
+  top:470px;
+  left:50px;
+  color:whitesmoke;
+}
+
+.mission>p{
+  z-index: 2;
+  position: absolute;
+  top:200px;
+  left:60px;
+  text-align:left;
+  color:whitesmoke;
+  font-size: 20px;
+}
+.mission>img{
+  z-index:1;
+  position: relative;
+}
+
+.motivate{
+  position: relative;
+  color:whitesmoke;
+  background: url(images/bg.jpg) no-repeat;
+  background-size: cover;
+  height:5000px;
+}
+.motivate>h1{
+  padding-top:70px;
+  font-size: 40px;
+  padding-left:100px;
+}
+
+/* Card*/
+
+.card {
+  display: inline-block !important;
+  margin: 70px !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  color:Black;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,70 @@
+.navbar-transparent {
+  background: none !important;
+  border: none !important;
+  position: fixed !important;
+  z-index: 5;
+}
+
+.fl {
+  float: left;
+}
+
+.navbar-light .navbar-brand {
+  color: black;
+
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+a:hover {
+  background-color: transparent;
+  color: black;
+  transform: scale(1.1);
+}
+
+.nav-link {
+  border-radius: 5px;
+  font-family: 'Catamaran', sans-serif;
+  padding: 10px 5px 2px 5px;
+}
+
+.navbar-brand {
+  border-radius: 5px;
+  padding: 3px 10px 3px 0px;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 35px;
+}
+
+.navbar {
+  color: green;
+}
+
+.form-transparent {
+  background: none !important;
+  border: 1px solid #28a745 !important;
+}
+
+.form-inline {
+  margin-left: 50px;
+}
+
+.form-control {
+  border-radius: 1.5rem !important;
+}
+
+.form-inline>button {
+  border-radius: 1.5rem !important;
+}
+
+img {
+  position: relative;
+  z-index: 1;
+}
+
+.navigation {
+  padding-top: 15px;
+  position: absolute;
+}
